@@ -1,4 +1,4 @@
-# Analyzing the Risk/Return of 4 Funds.
+# Analyze the Risk/Return of 4 Funds.
 
 Analyze the risk/return of 4 funds and recommend a fund based on Sharpe ratio, Beta, Treynor measure and Information ratio. 
 
