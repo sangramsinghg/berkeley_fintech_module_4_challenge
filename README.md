@@ -1,12 +1,12 @@
-# Analyzing Risk/Return for 4 Funds.
+# Analyzing the Risk/Return of 4 Funds.
 
-Analyze the risk/return for 4 funds and pick a fund based on sharpe ratio, beta, treynor measure and information ratio. 
+Analyze the risk/return of 4 funds and recommend a fund based on Sharpe ratio, Beta, Treynor measure and Information ratio. 
 
 Based on the Sharpe Ratios, we can pick two funds Tiger and Berkshire for further analysis
 
 ![Sharpe Ratios](Images/sharpe_ratios.png)
 
-For the same amount of risk, Berkshire provides the best risk-return with an annualized sharpe ratio of 0.72. It is even better than S&P 500 (annualized sharpe ratio of 0.59). Paulson offers the worst risk return providing a negative return for the same risk with an annualized sharpe ratio of -0.19. Sharpe ratio indicated excess return adjusted for risk. Higher the sharpe ratio, higher the return adjusted for the same amount of risk.
+For the same amount of risk, Berkshire provides the best risk-return with an annualized sharpe ratio of 0.72. It is even better than S&P 500 (annualized sharpe ratio of 0.59). Paulson offers the worst risk return providing a negative return for the same risk with an annualized sharpe ratio of -0.19. Sharpe ratio indicated excess return adjusted for risk. Higher the sharpe ratio, higher the return adjusted for the same amount of risk. Tiger comes a close second in terms of Sharpe Ratios.
 
 The statistics for the final two funds are
 
