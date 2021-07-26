@@ -1,12 +1,12 @@
 # Analyzing Risk/Return for 4 Funds.
 
-Analyze the risk/return for 4 funds and pick a fund based on sharpe ration, beta, treynor measure, information ratio. 
+Analyze the risk/return for 4 funds and pick a fund based on sharpe ratio, beta, treynor measure and information ratio. 
 
 Based on the Sharpe Ratios, we can pick two funds Tiger and Berkshire for further analysis
 
 ![Sharpe Ratios](Images/sharpe_ratios.png)
 
-For the same amount of risk, Berkshire provides the best risk-return with an annualized sharpe ration of 0.72. It is even better than S&P 500 (annualized sharpe ratio of 0.59). Paulson offers the worst risk return providing a negative return for the same risk with an annualized sharpe ratio of -0.19. Sharpe ratio indicated excess return adjusted for risk. Higher the sharpe ratio, higher the return adjusted for the same amount of risk.
+For the same amount of risk, Berkshire provides the best risk-return with an annualized sharpe ratio of 0.72. It is even better than S&P 500 (annualized sharpe ratio of 0.59). Paulson offers the worst risk return providing a negative return for the same risk with an annualized sharpe ratio of -0.19. Sharpe ratio indicated excess return adjusted for risk. Higher the sharpe ratio, higher the return adjusted for the same amount of risk.
 
 The statistics for the final two funds are
 
@@ -20,7 +20,7 @@ If the portfolio we pick is going to be a subportfolio of our investment fund, w
 
 If the active portfolio we pick is going to be mixed with S&P 500 index portfolio, we need to look at the information ratio which measures abnormal return or alpha (in reference to the benchmark S&P 500 index) per unit of non systematic risk. It is negative for both because they both underperform the market or the S&P 500. But the information ratio for Berkshire is greater than Tiger's. So, Berkshire will contribute more to this portfolio with its nonsystematic risk getting diversified by holding the S&P 500 index.
 
-So overall, Berkshire will be a better bet when chosing a portfolio in any given scenario. 
+So overall, Berkshire will be a better bet when chosing a portfolio in most of the scenarios. 
 
 If the user is not concerned about return and mostly concerned about reducing risk, they could opt for the Tiger portfolio. Based on Beta only, Tiger has a much lower average Beta and much lower rolling Beta than Berkshire. Lower Beta indicates lower volatility vis a vis the S&P 500 as compared to Berkshire and less sensitivity to S&P500. So, Tiger is adding lower risk as compared to Berkshire and still has a comparable sharpe ratio as Berkshire. Therefore Tiger could be included in the portfolio to get equivalent returns for a much lower risk. Please bear in mind that both Beta and sharpe ratio are not forward looking measures. They account for the historical/past performance and historic perfomance may not necessarily reflect the future performance. Kendall correlation (Since Pearson or default correlation relies on normality, it is preferable to use kendal correlation which is more robust) indicates that Berkshire daily returns are more correlated with the market as compared to the Tiger daily returns which is what the Beta also indicates. So, Tiger could add diversification value to the portfolio in the form of reducing risk.s
 
